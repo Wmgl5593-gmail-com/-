@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D7D5DC11D9D9536006C1857 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D7D5DC01D9D9536006C1857 /* GoogleService-Info.plist */; };
+		8D7F86B51D9DAA0100C2A122 /* FIRStorageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7F86B41D9DAA0100C2A122 /* FIRStorageViewController.m */; };
+		C375CB181D935D1F002EECD3 /* FIRCustomAuthPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C375CB161D935D1F002EECD3 /* FIRCustomAuthPickerViewController.m */; };
+		C375CB191D935D1F002EECD3 /* FIRCustomAuthPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C375CB171D935D1F002EECD3 /* FIRCustomAuthPickerViewController.xib */; };
+		C375CB1C1D943D5F002EECD3 /* FIRCustomAuthUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C375CB1B1D943D5F002EECD3 /* FIRCustomAuthUIDelegate.m */; };
+		C3AC675E1D81FE6B00FC956D /* FIRAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AC67531D81FE6B00FC956D /* FIRAuthViewController.m */; };
+		C3AC675F1D81FE6B00FC956D /* FIRChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AC67561D81FE6B00FC956D /* FIRChatMessage.m */; };
+		C3AC67601D81FE6B00FC956D /* FIRChatMessageDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AC67581D81FE6B00FC956D /* FIRChatMessageDataSource.m */; };
+		C3AC67611D81FE6B00FC956D /* FIRChatMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AC675A1D81FE6B00FC956D /* FIRChatMessageTableViewCell.m */; };
+		C3AC67621D81FE6B00FC956D /* FIRChatMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AC675B1D81FE6B00FC956D /* FIRChatMessageTableViewCell.xib */; };
+		C3AC67631D81FE6B00FC956D /* FIRChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AC675D1D81FE6B00FC956D /* FIRChatViewController.m */; };
+		C3AC67661D82002F00FC956D /* FIRSample.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AC67651D82002F00FC956D /* FIRSample.m */; };
+		C3F23ED01D80F58A0020509F /* FIRSamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F23ECF1D80F58A0020509F /* FIRSamplesViewController.m */; };
+		D81A05F61B86A78700498183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D81A05F51B86A78700498183 /* main.m */; };
+		D81A05F91B86A78700498183 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D81A05F81B86A78700498183 /* AppDelegate.m */; };
+		D81A05FF1B86A78700498183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81A05FD1B86A78700498183 /* Main.storyboard */; };
+		D81A06011B86A78700498183 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81A06001B86A78700498183 /* Images.xcassets */; };
+		D81A06041B86A78700498183 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81A06021B86A78700498183 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D7D5DC01D9D9536006C1857 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8D7F86B31D9DAA0100C2A122 /* FIRStorageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIRStorageViewController.h; path = Storage/FIRStorageViewController.h; sourceTree = "<group>"; };
+		8D7F86B41D9DAA0100C2A122 /* FIRStorageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FIRStorageViewController.m; path = Storage/FIRStorageViewController.m; sourceTree = "<group>"; };
+		C375CB151D935D1F002EECD3 /* FIRCustomAuthPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRCustomAuthPickerViewController.h; sourceTree = "<group>"; };
+		C375CB161D935D1F002EECD3 /* FIRCustomAuthPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIRCustomAuthPickerViewController.m; sourceTree = "<group>"; };
+		C375CB171D935D1F002EECD3 /* FIRCustomAuthPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FIRCustomAuthPickerViewController.xib; sourceTree = "<group>"; };
+		C375CB1A1D943D5F002EECD3 /* FIRCustomAuthUIDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRCustomAuthUIDelegate.h; sourceTree = "<group>"; };
+		C375CB1B1D943D5F002EECD3 /* FIRCustomAuthUIDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIRCustomAuthUIDelegate.m; sourceTree = "<group>"; };
+		C3AC67521D81FE6B00FC956D /* FIRAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRAuthViewController.h; sourceTree = "<group>"; };
+		C3AC67531D81FE6B00FC956D /* FIRAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIRAuthViewController.m; sourceTree = "<group>"; };
+		C3AC67551D81FE6B00FC956D /* FIRChatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRChatMessage.h; sourceTree = "<group>"; };
+		C3AC67561D81FE6B00FC956D /* FIRChatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIRChatMessage.m; sourceTree = "<group>"; };
+		C3AC67571D81FE6B00FC956D /* FIRChatMessageDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRChatMessageDataSource.h; sourceTree = "<group>"; };
+		C3AC67581D81FE6B00FC956D /* FIRChatMessageDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIRChatMessageDataSource.m; sourceTree = "<group>"; };
+		C3AC67591D81FE6B00FC956D /* FIRChatMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRChatMessageTableViewCell.h; sourceTree = "<group>"; };
+		C3AC675A1D81FE6B00FC956D /* FIRChatMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIRChatMessageTableViewCell.m; sourceTree = "<group>"; };
+		C3AC675B1D81FE6B00FC956D /* FIRChatMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FIRChatMessageTableViewCell.xib; sourceTree = "<group>"; };
+		C3AC675C1D81FE6B00FC956D /* FIRChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRChatViewController.h; sourceTree = "<group>"; };
+		C3AC675D1D81FE6B00FC956D /* FIRChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIRChatViewController.m; sourceTree = "<group>"; };
+		C3AC67641D82002F00FC956D /* FIRSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRSample.h; sourceTree = "<group>"; };
+		C3AC67651D82002F00FC956D /* FIRSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIRSample.m; sourceTree = "<group>"; };
+		C3F23ECE1D80F5890020509F /* FIRSamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRSamplesViewController.h; sourceTree = "<group>"; };
+		C3F23ECF1D80F58A0020509F /* FIRSamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIRSamplesViewController.m; sourceTree = "<group>"; };
+		D81A05F01B86A78700498183 /* FirebaseUIChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseUIChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81A05F41B86A78700498183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81A05F51B86A78700498183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D81A05F71B86A78700498183 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D81A05F81B86A78700498183 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D81A05FE1B86A78700498183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D81A06001B86A78700498183 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D81A06031B86A78700498183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D81A05ED1B86A78700498183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D7D5DC51D9DA075006C1857 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				8D7F86B31D9DAA0100C2A122 /* FIRStorageViewController.h */,
+				8D7F86B41D9DAA0100C2A122 /* FIRStorageViewController.m */,
+			);
+			name = Storage;
+			sourceTree = "<group>";
+		};
+		C3AC67501D81FE6B00FC956D /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC67511D81FE6B00FC956D /* Auth */,
+				C3AC67541D81FE6B00FC956D /* Chat */,
+				8D7D5DC51D9DA075006C1857 /* Storage */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		C3AC67511D81FE6B00FC956D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC67521D81FE6B00FC956D /* FIRAuthViewController.h */,
+				C3AC67531D81FE6B00FC956D /* FIRAuthViewController.m */,
+				C375CB1A1D943D5F002EECD3 /* FIRCustomAuthUIDelegate.h */,
+				C375CB1B1D943D5F002EECD3 /* FIRCustomAuthUIDelegate.m */,
+				C375CB151D935D1F002EECD3 /* FIRCustomAuthPickerViewController.h */,
+				C375CB161D935D1F002EECD3 /* FIRCustomAuthPickerViewController.m */,
+				C375CB171D935D1F002EECD3 /* FIRCustomAuthPickerViewController.xib */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		C3AC67541D81FE6B00FC956D /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				C3AC67551D81FE6B00FC956D /* FIRChatMessage.h */,
+				C3AC67561D81FE6B00FC956D /* FIRChatMessage.m */,
+				C3AC67571D81FE6B00FC956D /* FIRChatMessageDataSource.h */,
+				C3AC67581D81FE6B00FC956D /* FIRChatMessageDataSource.m */,
+				C3AC67591D81FE6B00FC956D /* FIRChatMessageTableViewCell.h */,
+				C3AC675A1D81FE6B00FC956D /* FIRChatMessageTableViewCell.m */,
+				C3AC675B1D81FE6B00FC956D /* FIRChatMessageTableViewCell.xib */,
+				C3AC675C1D81FE6B00FC956D /* FIRChatViewController.h */,
+				C3AC675D1D81FE6B00FC956D /* FIRChatViewController.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		D81A05E71B86A78700498183 = {
+			isa = PBXGroup;
+			children = (
+				8D7D5DC01D9D9536006C1857 /* GoogleService-Info.plist */,
+				D81A05F21B86A78700498183 /* FirebaseUIChat */,
+				D81A05F11B86A78700498183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D81A05F11B86A78700498183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D81A05F01B86A78700498183 /* FirebaseUIChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D81A05F21B86A78700498183 /* FirebaseUIChat */ = {
+			isa = PBXGroup;
+			children = (
+				D81A05F71B86A78700498183 /* AppDelegate.h */,
+				D81A05F81B86A78700498183 /* AppDelegate.m */,
+				C3F23ECE1D80F5890020509F /* FIRSamplesViewController.h */,
+				C3F23ECF1D80F58A0020509F /* FIRSamplesViewController.m */,
+				C3AC67641D82002F00FC956D /* FIRSample.h */,
+				C3AC67651D82002F00FC956D /* FIRSample.m */,
+				C3AC67501D81FE6B00FC956D /* Samples */,
+				D81A05FD1B86A78700498183 /* Main.storyboard */,
+				D81A06001B86A78700498183 /* Images.xcassets */,
+				D81A06021B86A78700498183 /* LaunchScreen.xib */,
+				D81A05F31B86A78700498183 /* Supporting Files */,
+			);
+			path = FirebaseUIChat;
+			sourceTree = "<group>";
+		};
+		D81A05F31B86A78700498183 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D81A05F41B86A78700498183 /* Info.plist */,
+				D81A05F51B86A78700498183 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D81A05EF1B86A78700498183 /* FirebaseUIChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81A06131B86A78700498183 /* Build configuration list for PBXNativeTarget "FirebaseUIChat" */;
+			buildPhases = (
+				6108EB0AB9E416E4AE3984D7 /* [CP] Check Pods Manifest.lock */,
+				D81A05EC1B86A78700498183 /* Sources */,
+				D81A05ED1B86A78700498183 /* Frameworks */,
+				D81A05EE1B86A78700498183 /* Resources */,
+				810D75511A2A731AA4CCE556 /* [CP] Embed Pods Frameworks */,
+				9D09D152A3C8575E8465B6B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseUIChat;
+			productName = FirebaseUIChat;
+			productReference = D81A05F01B86A78700498183 /* FirebaseUIChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D81A05E81B86A78700498183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Firebase, Inc.";
+				TargetAttributes = {
+					D81A05EF1B86A78700498183 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = D81A05EB1B86A78700498183 /* Build configuration list for PBXProject "FirebaseUIChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D81A05E71B86A78700498183;
+			productRefGroup = D81A05F11B86A78700498183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D81A05EF1B86A78700498183 /* FirebaseUIChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D81A05EE1B86A78700498183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81A05FF1B86A78700498183 /* Main.storyboard in Resources */,
+				C3AC67621D81FE6B00FC956D /* FIRChatMessageTableViewCell.xib in Resources */,
+				D81A06041B86A78700498183 /* LaunchScreen.xib in Resources */,
+				D81A06011B86A78700498183 /* Images.xcassets in Resources */,
+				C375CB191D935D1F002EECD3 /* FIRCustomAuthPickerViewController.xib in Resources */,
+				8D7D5DC11D9D9536006C1857 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6108EB0AB9E416E4AE3984D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		810D75511A2A731AA4CCE556 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseUIChat/Pods-FirebaseUIChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D09D152A3C8575E8465B6B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseUIChat/Pods-FirebaseUIChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D81A05EC1B86A78700498183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81A05F91B86A78700498183 /* AppDelegate.m in Sources */,
+				C375CB181D935D1F002EECD3 /* FIRCustomAuthPickerViewController.m in Sources */,
+				C375CB1C1D943D5F002EECD3 /* FIRCustomAuthUIDelegate.m in Sources */,
+				C3F23ED01D80F58A0020509F /* FIRSamplesViewController.m in Sources */,
+				C3AC67631D81FE6B00FC956D /* FIRChatViewController.m in Sources */,
+				C3AC67611D81FE6B00FC956D /* FIRChatMessageTableViewCell.m in Sources */,
+				C3AC67601D81FE6B00FC956D /* FIRChatMessageDataSource.m in Sources */,
+				C3AC675F1D81FE6B00FC956D /* FIRChatMessage.m in Sources */,
+				D81A05F61B86A78700498183 /* main.m in Sources */,
+				C3AC67661D82002F00FC956D /* FIRSample.m in Sources */,
+				8D7F86B51D9DAA0100C2A122 /* FIRStorageViewController.m in Sources */,
+				C3AC675E1D81FE6B00FC956D /* FIRAuthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D81A05FD1B86A78700498183 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D81A05FE1B86A78700498183 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D81A06021B86A78700498183 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D81A06031B86A78700498183 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D81A06111B86A78700498183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D81A06121B86A78700498183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D81A06141B86A78700498183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FirebaseUIChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.FirebaseUIChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D81A06151B86A78700498183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FirebaseUIChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.FirebaseUIChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D81A05EB1B86A78700498183 /* Build configuration list for PBXProject "FirebaseUIChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81A06111B86A78700498183 /* Debug */,
+				D81A06121B86A78700498183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81A06131B86A78700498183 /* Build configuration list for PBXNativeTarget "FirebaseUIChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81A06141B86A78700498183 /* Debug */,
+				D81A06151B86A78700498183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D81A05E81B86A78700498183 /* Project object */;
+}

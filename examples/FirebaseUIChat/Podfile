@@ -1,0 +1,13 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+
+pod 'FirebaseUI', '~> 0.3.0'
+
+target 'FirebaseUIChat' do
+
+end
+
+target 'FirebaseUIChatTests' do
+
+end
+
